@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.placeholder-padding::placeholder {
+    padding-left: 1rem; /* Tailwind equivalent: pl-4 */
+  }
