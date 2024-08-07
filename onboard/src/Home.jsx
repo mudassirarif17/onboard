@@ -4,6 +4,10 @@ import front from "./assets/front.png";
 import back from "./assets/back.png";
 import finish from "./assets/finish.png";
 import plus from "./assets/cross.png";
+import threed from "./assets/3dicons.png";
+import book from "./assets/book.png";
+import cuboid from "./assets/cuboid.png";
+import square from "./assets/square.png";
 import Modal from './Modal'
 
 
@@ -91,9 +95,32 @@ const Home = () => {
 
         <div className="mid-btm w-[92vw] mx-auto mt-[32px] flex">
 
-          <div className="mid-btm-left w-[46vw] flex justify-center  relative">
+          <div className="mid-btm-left w-[46vw] flex justify-center relative">
             <img className='z-20 h-[400px]' src={ front } alt="" />
             <div className='bg-gradient-to-b from-white to-[#38B6FF] w-[400px] h-[400px] rounded-full absolute top-4'></div>
+            <div className='bg-[#FFFFFF] w-[80px] flex justify-center items-center h-[80px] absolute top-[230px] left-[150px] z-30 rounded-full'>
+              <img className='w-[60px]' src={threed} alt="" />
+            </div>
+
+            <div className='w-[80px] flex justify-center items-center h-[80px] absolute top-[130px] left-[60px] z-30 rounded-full'>
+              <img className='w-[80px] z-10' src={cuboid} alt="" />
+            </div>
+
+            <div className='w-[80px] flex justify-center items-center h-[80px] absolute top-[20px] left-[90px] z-30 rounded-full'>
+              <img className='w-[80px] ' src={square} alt="" />
+            </div>
+
+            <div className='bg-[#FFFFFF] w-[80px] flex justify-center items-center h-[80px] absolute top-[150px] left-[400px] z-30 rounded-full'>
+              <img className='w-[60px] ' src={book} alt="" />
+            </div>
+
+            <div className='w-[80px] flex justify-center items-center h-[80px] absolute top-[140px] left-[490px] z-30 rounded-full'>
+              <img className='w-[80px]' src={cuboid} alt="" />
+            </div>
+
+            <div className='w-[80px] flex justify-center items-center h-[80px] absolute top-[40px] left-[450px] z-30 rounded-full'>
+              <img className='w-[80px]' src={square} alt="" />
+            </div>
           </div>
 
           <div className="mid-btm-right w-[46vw] relative">

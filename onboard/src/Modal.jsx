@@ -4,7 +4,7 @@ import cross from "./assets/newcroos.png";
 
 const Modal = ({toggleModal}) => {
   return (
-    <div className='flex justify-center items-center h-[100vh] custom-transition z-20 '>
+    <div className='flex justify-center items-center h-[100vh] custom-transition z-40 '>
 
       <div className="modal mx-auto bg-[#F1F7FA] h-[55vh] w-[45vw] rounded-lg">
             <div className="top-side w-[90%] mx-auto flex justify-between items-center my-4">
