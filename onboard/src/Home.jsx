@@ -37,7 +37,7 @@ const Home = () => {
 
       <div className="mid my-4">
 
-        <div className="mid-top flex  items-center w-[60vw]  mx-auto">
+        <div className="mid-top flex justify-center  items-center w-[60vw]  mx-auto">
           <div>
             <div className='bg-[#38B6FF] w-[50px] h-[50px] rounded-full flex flex-col justify-center items-center'>
               <h1 className='text-white font-semibold mt-8'>01</h1>
